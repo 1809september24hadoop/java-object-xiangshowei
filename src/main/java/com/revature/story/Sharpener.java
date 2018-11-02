@@ -20,9 +20,10 @@ public class Sharpener {
 		return name;
 	}
 
-	public void sharpen(Graphite graphite, double amountToShave) {
+	public void sharpen(Graphite graphite, double amountToShave){
 		if(graphite.hasClip()) {
-			throw new NotAPencilException("Only pencils can use a sharpener");
+			throw new NotAPencilException("Fatal error. Pencil not detected. " 
+					+ "Only pencils can use a sharpener");
 		}
 
 		graphite.setTipSize((graphite.getTipSize() - amountToShave));

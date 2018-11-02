@@ -57,6 +57,4 @@ public class Graphite extends WritingTool implements Write {
 	public void write() {
 		System.out.println("I use graphite to write.");
 	}
-	
-
 }

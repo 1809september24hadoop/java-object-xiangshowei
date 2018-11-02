@@ -64,13 +64,16 @@ public class Ink extends WritingTool implements Write {
 		int randomNumber = rnd.nextInt(30);
 		
 		graphite.setGraphiteAmountRemaining(randomNumber);
+		throw new NoBullyingException("No bullying allowed while you're under my roof!");
 	}
 
 	@Override
-	public void write() {
+	public void write() throws RanOutOfInkException {
 		if(inkAmountRemaining == 0) {
-			throw new RanOutOfInkException("Oh no! I ran out of ink!");
+			throw new RanOutOfInkException("\"Oh no! I ran out of ink!\"");
 		}
+		
+		System.out.println("I use ink to write.");
 	}
 
 }
