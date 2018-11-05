@@ -1,10 +1,10 @@
 package com.revature.story;
 
-public abstract class WritingTool implements Write {
+public abstract class WritingTool implements Writable {
 	
-	String name;
-	double tipSize;
-	String color;
+	private String name;
+	private double tipSize;
+	private String color;
 	
 	public WritingTool() {
 		this("generic writing tool", 0.5, "gray");

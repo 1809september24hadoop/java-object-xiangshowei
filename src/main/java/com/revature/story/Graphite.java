@@ -1,6 +1,6 @@
 package com.revature.story;
 
-public class Graphite extends WritingTool implements Write {
+public class Graphite extends WritingTool implements Writable {
 	
 	//in percentage
 	private double graphiteAmountRemaining;

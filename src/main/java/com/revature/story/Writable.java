@@ -1,6 +1,6 @@
 package com.revature.story;
 
-public interface Write {
+public interface Writable {
 	
 	void write(); 
 }

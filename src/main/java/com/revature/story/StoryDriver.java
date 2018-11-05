@@ -81,10 +81,9 @@ public class StoryDriver {
 		}
 		System.out.println();
 
-		System.out.println(" \"Sorry bud, pencils only,\" the " + sharpener.getName() + 
-				" said as it pat the " + mechanicalPencil.getName() + " on its clip.");
-		System.out.println(" \"The " + fountainPen.getName() + 
-				"\"might be popular but it doesn't last long. Take a look for yourself.\" ");
+		System.out.println(" \"Sorry bud, pencils only.");
+		System.out.println("The " + fountainPen.getName() + 
+				"might be popular but it doesn't last long. Take a look for yourself.\" ");
 
 		fountainPen.setInkAmountRemaining(0);
 

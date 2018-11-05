@@ -5,7 +5,7 @@ import java.util.Random;
 import com.revature.exceptions.NoBullyingException;
 import com.revature.exceptions.RanOutOfInkException;
 
-public class Ink extends WritingTool implements Write {
+public class Ink extends WritingTool implements Writable {
 	
 	//in percentage
 	private double inkAmountRemaining;
